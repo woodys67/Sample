@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flip_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_purple"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/flash_back_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="~의 정곡을 찌르다"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:hint="뒷면, 해설 나오는 부분"/>
+
+</LinearLayout>

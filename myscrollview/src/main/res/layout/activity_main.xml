@@ -1,0 +1,1498 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Button day1-->
+        <LinearLayout
+            android:id="@+id/button_d1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY1"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"/>
+
+            <ImageView
+                android:id="@+id/imgView_d1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day1"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day2-->
+        <LinearLayout
+            android:id="@+id/button_d2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="false">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY2"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"/>
+
+            <ImageView
+                android:id="@+id/imgView_d2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day2"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day3-->
+        <LinearLayout
+            android:id="@+id/button_d3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="false">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY3"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"/>
+
+            <ImageView
+                android:id="@+id/imgView_d3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day3"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day4-->
+        <LinearLayout
+            android:id="@+id/button_d4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY4"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day4"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day5-->
+        <LinearLayout
+            android:id="@+id/button_d5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY5"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day5"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day6-->
+        <LinearLayout
+            android:id="@+id/button_d6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY6"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day6"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day7-->
+        <LinearLayout
+            android:id="@+id/button_d7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY7"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day7"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day8-->
+        <LinearLayout
+            android:id="@+id/button_d8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY8"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day8"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day9-->
+        <LinearLayout
+            android:id="@+id/button_d9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY9"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day9"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day10-->
+        <LinearLayout
+            android:id="@+id/button_d10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY10"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day10"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day11-->
+        <LinearLayout
+            android:id="@+id/button_d11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY11"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day11"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day12-->
+        <LinearLayout
+            android:id="@+id/button_d12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY12"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day12"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day13-->
+        <LinearLayout
+            android:id="@+id/button_d13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY13"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day13"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day14-->
+        <LinearLayout
+            android:id="@+id/button_d14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY14"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day14"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day15-->
+        <LinearLayout
+            android:id="@+id/button_d15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY15"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day15"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day16-->
+        <LinearLayout
+            android:id="@+id/button_d16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY16"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day16"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day17-->
+        <LinearLayout
+            android:id="@+id/button_d17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY17"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d17"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day17"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d17"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day-->
+        <LinearLayout
+            android:id="@+id/button_d18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY18"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d18"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day18"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d18"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day19-->
+        <LinearLayout
+            android:id="@+id/button_d19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY19"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d19"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day19"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d19"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day20-->
+        <LinearLayout
+            android:id="@+id/button_d20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY20"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day20"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day21-->
+        <LinearLayout
+            android:id="@+id/button_d21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY21"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day21"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day22-->
+        <LinearLayout
+            android:id="@+id/button_d22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY22"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day22"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day23-->
+        <LinearLayout
+            android:id="@+id/button_d23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY23"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d23"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day23"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d23"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day24-->
+        <LinearLayout
+            android:id="@+id/button_d24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY24"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day24"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day25-->
+        <LinearLayout
+            android:id="@+id/button_d25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY25"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day25"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day26-->
+        <LinearLayout
+            android:id="@+id/button_d26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY26"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d26"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day26"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d26"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day27-->
+        <LinearLayout
+            android:id="@+id/button_d27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY27"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d27"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day27"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d27"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day28-->
+        <LinearLayout
+            android:id="@+id/button_d28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY28"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d28"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day28"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d28"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day29-->
+        <LinearLayout
+            android:id="@+id/button_d29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY29"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d29"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day29"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d29"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+
+        <!--Button day30-->
+        <LinearLayout
+            android:id="@+id/button_d30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY30"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d30"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day30"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d30"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day31-->
+        <LinearLayout
+            android:id="@+id/button_d31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY31"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d31"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day31"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d31"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day32-->
+        <LinearLayout
+            android:id="@+id/button_d32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY32"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d32"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day32"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d32"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="85"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <!--Button day33-->
+        <LinearLayout
+            android:id="@+id/button_d33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DAY33"
+                style="@style/dayText"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_weight="1.5"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imgView_d33"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/day33"
+                android:background="@android:color/transparent"
+                android:layout_weight="7.5"/>
+
+            <TextView
+                android:id="@+id/count_d33"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="60"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

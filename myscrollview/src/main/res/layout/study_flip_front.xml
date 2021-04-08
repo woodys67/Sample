@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flip_front"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_purple"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/flash_front_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="hit the nail on the head of"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:hint="여기에 텍스트가 나옵니다. 센터에 앞면!"/>
+
+</LinearLayout>
